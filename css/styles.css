@@ -558,7 +558,8 @@ ul {
   display: flex;
 }
 
-.social-contacts-description {
+.social-contacts-description,
+.subscription-description {
   color: var(--hero-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -568,8 +569,9 @@ ul {
 }
 
 .social-contacts {
-  padding-top: 70px;
+  padding-top: 72px;
   padding-bottom: 100px;
+  padding-right: 93px;
 }
 
 .social-links {
@@ -585,6 +587,57 @@ ul {
 
 .social-link-footer {
   fill: var(--hero-text-color);
+}
+
+.subscription {
+  padding-top: 72px;
+}
+
+.subscription-input {
+  padding-left: 12px;
+  height: 50px;
+  width: 358px;
+  margin-right: 12px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+
+.subsciption-button {
+  width: 200px;
+  height: 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: var(--hero-text-color);
+  background-color: var(--accent-color);
+  font-family: var(--primary-font-family);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  border: none;
+  transition-property: background, box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subsciption-button:hover {
+  background: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.subsciption-button-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subsciption-button-text {
+  margin-right: 10px;
+  text-align: center;
 }
 
 /* portfolio navigation section */
